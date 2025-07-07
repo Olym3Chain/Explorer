@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(248, 100%, 99%);
+  --foreground: hsl(15, 25%, 8%);
+  --muted: hsl(210, 40%, 98%);
+  --muted-foreground: hsl(215, 16%, 47%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(15, 25%, 8%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(15, 25%, 8%);
+  --border: hsl(214, 32%, 91%);
+  --input: hsl(214, 32%, 91%);
+  --primary: hsl(159, 61%, 48%);
+  --primary-foreground: hsl(210, 40%, 98%);
+  --secondary: hsl(210, 40%, 96%);
+  --secondary-foreground: hsl(222, 84%, 5%);
+  --accent: hsl(210, 40%, 96%);
+  --accent-foreground: hsl(222, 84%, 5%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+  --ring: hsl(159, 61%, 48%);
+  --radius: 0.5rem;
+  --olym-primary: hsl(159, 61%, 48%);
+  --olym-secondary: hsl(187, 85%, 53%);
+  --olym-dark: hsl(222, 84%, 5%);
+  --olym-darker: hsl(240, 10%, 4%);
+  --olym-light: hsl(210, 40%, 98%);
+  --olym-gray: hsl(215, 16%, 47%);
+}
+
+.dark {
+  --background: hsl(222, 84%, 5%);
+  --foreground: hsl(210, 40%, 98%);
+  --muted: hsl(217, 32%, 17%);
+  --muted-foreground: hsl(215, 20%, 65%);
+  --popover: hsl(222, 84%, 5%);
+  --popover-foreground: hsl(210, 40%, 98%);
+  --card: hsl(222, 84%, 5%);
+  --card-foreground: hsl(210, 40%, 98%);
+  --border: hsl(217, 32%, 17%);
+  --input: hsl(217, 32%, 17%);
+  --primary: hsl(159, 61%, 48%);
+  --primary-foreground: hsl(222, 84%, 5%);
+  --secondary: hsl(217, 32%, 17%);
+  --secondary-foreground: hsl(210, 40%, 98%);
+  --accent: hsl(217, 32%, 17%);
+  --accent-foreground: hsl(210, 40%, 98%);
+  --destructive: hsl(0, 63%, 31%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+  --ring: hsl(159, 61%, 48%);
+  --olym-primary: hsl(159, 61%, 48%);
+  --olym-secondary: hsl(187, 85%, 53%);
+  --olym-dark: hsl(222, 84%, 5%);
+  --olym-darker: hsl(240, 10%, 4%);
+  --olym-light: hsl(210, 40%, 98%);
+  --olym-gray: hsl(215, 16%, 47%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', 'Consolas', monospace;
+  }
+}
+
+@layer components {
+  .olym-primary {
+    color: var(--olym-primary);
+  }
+  
+  .bg-olym-primary {
+    background-color: var(--olym-primary);
+  }
+  
+  .olym-secondary {
+    color: var(--olym-secondary);
+  }
+  
+  .bg-olym-secondary {
+    background-color: var(--olym-secondary);
+  }
+  
+  .olym-dark {
+    color: var(--olym-dark);
+  }
+  
+  .bg-olym-dark {
+    background-color: var(--olym-dark);
+  }
+  
+  .olym-darker {
+    color: var(--olym-darker);
+  }
+  
+  .bg-olym-darker {
+    background-color: var(--olym-darker);
+  }
+  
+  .olym-light {
+    color: var(--olym-light);
+  }
+  
+  .bg-olym-light {
+    background-color: var(--olym-light);
+  }
+  
+  .olym-gray {
+    color: var(--olym-gray);
+  }
+  
+  .bg-olym-gray {
+    background-color: var(--olym-gray);
+  }
+}

@@ -62,11 +62,11 @@ yarn start
 - **RPC URL**: https://rpc1.olym3.xyz/
 - **Chain ID**: 256000
 - **Currency Symbol**: OLM
-- **Block Explorer URL**: https://www.olym3.xyz/
+- **Block Explorer URL**: https://explorer1.olym3scan.xyz/
 
 ## Nhận OLM Testnet Token
 
-Bạn có thể nhận OLM testnet token miễn phí từ faucet chính thức tại [https://www.olym3.xyz/](https://www.olym3.xyz/).
+Bạn có thể nhận OLM testnet token miễn phí từ faucet chính thức tại [https://faucet.olym3.xyz/](https://faucet.olym3.xyz/).
 
 ## Phát triển
 
